@@ -4,18 +4,20 @@
 #fondoHeader {
 
     background-color: cornflowerblue;
-
-
-
 }
+
+.tipografiaNunito {
+    font-family: "Nunito", sans-serif;
+}
+
 
 .colorVerde {
 
-    color: chartreuse;
+    color:#2ecc71;  
 }
 
 .colorAmarillo {
-    color: yellow;
+    color: #f1c40f;
 }
 
 .colorBlanco {
@@ -25,15 +27,12 @@
 
 .colorRojo {
 
-    color: red;
+    color: #e74c3c;
 }
-
-.tipografiaNunito {
-    font-family: "Nunito", sans-serif;
-}
-
 
 p {
-    background-color: blueviolet;
-    font-style: inherit;
-    font-size: 30px;} 
+    
+    font-size: 1rem;
+    line-height: 1.5;   
+}
+
