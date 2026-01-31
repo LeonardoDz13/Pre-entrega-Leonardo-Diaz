@@ -12,10 +12,23 @@ body{
     transition: background-color 0.5s ease;    
 }
 
-/* Efecto hover para el header */
-.nav-link :hover {
-    color: #ffde59 !important;
+/*Tamaño logo*/
+.logo-nav {
+    width: 12rem;
+    height: auto;
+    transition: transform 0.3s ease ;
+}
+
+/* Efecto hover para el logo */
+.logo-nav:hover {
     transform: scale(1.05);
+}
+
+
+/* Efecto hover para el header */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffde59;
+   transition: all 0.3s ease;
 }
 
 .container {
@@ -26,24 +39,3 @@ body{
 .tipografiaNunito {
     font-family: "Nunito", sans-serif;
 }
-
-/* Colores personalizados */
-.colorVerde {
-
-    color:#2ecc71;  
-}
-
-.colorAmarillo {
-    color: #f1c40f;
-}
-
-.colorBlanco {
-
-    color: white;
-}
-
-.colorRojo {
-
-    color: #e74c3c;
-}
-
