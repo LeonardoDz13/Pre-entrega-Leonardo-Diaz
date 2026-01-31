@@ -20,29 +20,27 @@
     <header id="fondoHeader">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
-        <div class="container">
+        <div class="container-fluid px-4">
             <a class="navbar-brand fw-bold" href="index.html">
-                <img src="./assets/imagenes/Logo_LD.png" alt="Logo sticker" width="200" height="200" >
+                <img src="./assets/imagenes/Logo_LD.png" alt="Logo sticker" class="logo-nav">
                 
             </a>
+
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                <span class="navbar-toggler-icon"></span> 
+           </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
            
-            <ul>
-                <li>
-                    <a href="#">INICIO</a>
-                </li>
-                <li>
-                    <a href="./pages/stickers.html"> STICKERS </a>
-                </li>
-                <li>
-                    <a href="./pages/categorias.html"> CATEGORIAS </a>
-                </li>
-                <li>
-                    <a href="./pages/preguntas_frecuentes.html"> PREGUNTAS FRECUENTES </a>
-                </li>
-                <li>
-                    <a href="./pages/carrito.html"> CARRITO </a>
-                </li>
-         </div>
+                    <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/stickers.html">STICKERS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/categorias.html">CATEGORIAS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/preguntas_frecuentes.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/carrito.html">CARRITO</a></li> 
+                    </ul>
+                </div>
+        </div>
     </nav>
     </header>
 
