@@ -13,35 +13,54 @@
 </head>
 
 <body>
-    <header id="fondoHeader">
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html"> INICIO</a>
-                </li>
-                <li>
-                    <a href="#"> STICKERS </a>
-                </li>
-                <li>
-                    <a href="./categorias.html"> CATEGORIAS </a>
-                </li>
-                <li>
-                    <a href="./preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a>
-                </li>
-                <li>
-                    <a href="./carrito.html">CARRITO </a>
-                </li>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="../assets/imagenes/Logo_LD.png" alt="Logo sticker" class="logo-nav">
+                
+            </a>
 
-            </ul>
-        </nav>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                <span class="navbar-toggler-icon"></span> 
+           </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+           
+                    <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="../index.html">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">STICKERS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/categorias.html">CATEGORIAS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/preguntas_frecuentes.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/carrito.html">CARRITO</a></li> 
+                    </ul>
+                </div>
+        </div>
+    </nav>
     </header>
-    <main>
-        <h1> STICKERS </h1>
-        
-        <P class="colorVerde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur beatae, eum placeat ratione suscipit
-            necessitatibus asperiores commodi iste reprehenderit ullam.</P>
+    <main class="container my-5">
+        <div class="row align-items-center min-vh-75">
 
-            <img src="../assets/imagenes/Chill_de_cojones-removebg-preview.png" alt="sticker chill">
+            <div class="col-md-6 mb-4 text-start">
+                
+                <h1 class="display-5 fw-bold mb-4"> STICKERS </h1>
+
+            </div>   
+        </div> 
+
+        <section class="mt-5 pt-5">
+             <h2 class="text-center fw-bold mb-5">STICKERS</h2>
+             <div class="row g-4">
+                <div class="col-6 col-md-4">
+                    <div class="card border-0 shadow-sm h-100 card-sticker">
+                    <img src="../assets/imagenes/basket_mano_+_pelota-removebg-preview.png" class="card-img-top p-4" alt="sticker 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">BASKET </h5>
+                        <p class="card-text text-muted">$1500</p>
+                        <button class="btn btn-outline-dark btn-sm rounded-pill">Añadir al carrito</button>
+                    </div>       
+                    </div>
+                </div>
+        </section>
     </main>
      <footer class="bg-dark text-white text-center py-4 mt-5">
         <p class="mb-0"> &copy; 2026 Leonardo Diaz - Coderhouse</p>
