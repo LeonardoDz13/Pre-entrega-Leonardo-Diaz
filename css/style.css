@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* Estilo general para el body */
+body{
+    background-color: #fcfcfc;
+    font-size: 1.1rem
+}
 
+/* Estilo para el header */
 #fondoHeader {
+    background-color: #4169E1;
+    transition: background-color 0.5s ease;    
+}
 
-    background-color: cornflowerblue;
+/* Efecto hover para el header */
+.nav-link :hover {
+    color: #ffde59 !important;
+    transform: scale(1.05);
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .tipografiaNunito {
     font-family: "Nunito", sans-serif;
 }
 
-
+/* Colores personalizados */
 .colorVerde {
 
     color:#2ecc71;  
@@ -28,11 +45,5 @@
 .colorRojo {
 
     color: #e74c3c;
-}
-
-p {
-    
-    font-size: 1rem;
-    line-height: 1.5;   
 }
 
