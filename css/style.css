@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+#fondoHeader {
+
+    background-color: cornflowerblue;
+
+
+
+}
+
+.colorVerde {
+
+    color: chartreuse;
+}
+
+.colorAmarillo {
+    color: yellow;
+}
+
+.colorBlanco {
+
+    color: white;
+}
+
+.colorRojo {
+
+    color: red;
+}
+
+.tipografiaNunito {
+    font-family: "Nunito", sans-serif;
+}
+
+
+p {
+    background-color: blueviolet;
+    font-style: inherit;
+    font-size: 30px;} 
