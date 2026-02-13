@@ -1,0 +1,23 @@
+
+@use '../utilities/variables' as *;
+
+/* Estilos de la sección de productos */
+
+.card-sticker {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)!important;
+ 
+    }   
+
+    .card-title{
+    color:$color-logo;
+    font-size: 1.2rem;
+
+}
+
+
+}

@@ -1,0 +1,21 @@
+@use '../utilities/variables'as *;
+
+#fondoHeader {
+    background-color:$color-logo;
+    transition: background-color 0.5s ease;
+
+    .logo-nav {
+        width: 12rem;
+        height: auto;
+        transition: transform 0.3s ease;
+
+        &:hover { // El & reemplaza a .logo-nav
+            transform: scale(1.05);
+        }
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color:$color-acento;
+        transition: all 0.3s ease;
+    }
+}
