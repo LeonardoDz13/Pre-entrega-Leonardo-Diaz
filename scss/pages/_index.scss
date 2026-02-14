@@ -1,17 +1,7 @@
-/* Animaciones y efectos movimiento sticker principal */
-.floating-sticker{
-     
-    animation: float 4s ease-in-out infinite;
-}
+@use '../utilities/mixins' as *;
 
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+.animacion-flotar{
+
+    filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.15));
+    @include animacion-flotar;
 }
