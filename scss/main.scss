@@ -4,8 +4,9 @@
 @use 'utilities/mixins';
 
 // Base
-@use 'base/base';
 @use 'base/reset';
+@use 'base/base';
+
 
 // Componentes
 @use 'componentes/cards';
@@ -16,5 +17,6 @@
 @use 'pages/index';
 @use 'pages/carrito';
 @use 'pages/categorias';
-
+@use 'pages/stickers';
+@use 'pages/preguntas_frecuentes';
 

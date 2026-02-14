@@ -9,14 +9,13 @@ body {
     color: $color-texto;
     font-family: $fuente-principal;
     font-size: 1.1rem;
-    padding-top: 110px; // Ajuste para el header fixed
 }
 
 .tipografiaNunito {
-    font-family: $fuente-principal;
+    font-family: $fuente-principal,sans-serif!important;
 }
 
-.container {
+main.container {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }

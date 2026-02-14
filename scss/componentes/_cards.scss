@@ -3,21 +3,3 @@
 @use '../utilities/mixins' as *;
 
 
-/* Estilos para la sección de productos */
-
-.card-sticker {
-    @include transicion-estandar;
-
-    &:hover {
-
-        @include card-hover;
-    }   
-
-    .card-title{
-    color:$color-logo;
-    font-size: 1.2rem;
-
-}
-
-
-}
