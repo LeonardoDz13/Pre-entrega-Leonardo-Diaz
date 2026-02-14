@@ -15,7 +15,7 @@
     margin: 2rem auto;
     max-width: 95% !important;
     height: auto !important; 
-    min-height: 450px !important;
+    // min-height: 500px !important;
     overflow: hidden;
 
     @include breakpoint('desktop') {
@@ -29,11 +29,10 @@
 
     .carousel-item {
         text-align: center;
-        height: 400px;
         
         
         img.img-fluid { 
-            height: 250px !important; 
+            height: 240px !important; 
             width: auto !important; 
             object-fit: contain !important;
             margin: 0 auto 2rem auto !important; 
