@@ -18,9 +18,9 @@ body {
   padding-bottom: 2rem;
 }
 
-/* Estilos de la sección de productos */
+/* Estilos para la sección de productos */
 .card-sticker {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease-in-out !important;
 }
 .card-sticker:hover {
   transform: translateY(-10px);

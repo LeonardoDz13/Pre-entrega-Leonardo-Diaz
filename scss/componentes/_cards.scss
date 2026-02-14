@@ -1,16 +1,16 @@
 
 @use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
 
-/* Estilos de la sección de productos */
+
+/* Estilos para la sección de productos */
 
 .card-sticker {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    @include transition-estandar;
 
     &:hover {
 
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)!important;
- 
+        @include card-hover;
     }   
 
     .card-title{
