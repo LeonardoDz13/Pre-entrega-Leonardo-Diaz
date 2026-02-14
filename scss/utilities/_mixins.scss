@@ -6,8 +6,39 @@
 }
 
 
-@mixin transition-estandar{
+@mixin transicion-estandar{
 
 transition: all 0.3s ease-in-out !important;    
 
+}
+
+
+// Flexbox
+
+@mixin flex-centro($direccion:row, $justificado: center,$alineado:center, $espaciado: center){
+
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justificado;
+    align-items: $alineado;
+    gap: $espaciado;
+
+}
+
+/* Animaciones y efectos movimiento sticker principal */
+@mixin animacion-flotar{
+     
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
